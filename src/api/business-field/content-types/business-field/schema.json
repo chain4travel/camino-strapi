@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_fields",
+  "info": {
+    "singularName": "business-field",
+    "pluralName": "business-fields",
+    "displayName": "businessFields",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BusinessField": {
+      "type": "string"
+    }
+  }
+}

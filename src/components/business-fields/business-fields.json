@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_business_fields_business_fields",
+  "info": {
+    "displayName": "businessFields",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "businessFields": {
+      "type": "enumeration",
+      "enum": [
+        "Consulting",
+        "Distribution",
+        "Finance",
+        "Aerospace",
+        "Hospitality",
+        "Data Insights",
+        "Loyalty",
+        "Reviews",
+        "Transportation",
+        "Customer Engagement",
+        "Software Development"
+      ],
+      "required": true
+    }
+  }
+}

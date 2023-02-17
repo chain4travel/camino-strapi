@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_sizes",
+  "info": {
+    "singularName": "company-size",
+    "pluralName": "company-sizes",
+    "displayName": "CompanySize"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyNumberOfEmployees": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
