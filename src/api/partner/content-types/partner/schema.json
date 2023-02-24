@@ -15,7 +15,7 @@
     "contactEmail": {
       "type": "email",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "companyName": {
       "type": "string",
@@ -235,22 +235,22 @@
     "companyWebsite": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "contactFirstname": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "contactLastname": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "contactPhone": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "companyShortDescription": {
       "type": "richtext",
