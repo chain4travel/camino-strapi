@@ -22,7 +22,7 @@
       "required": true,
       "unique": true
     },
-    "companyLogo": {
+    "companyLogoColor": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -273,6 +273,22 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::company-size.company-size"
+    },
+    "companyLogoDark": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "companyLogoLight": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
