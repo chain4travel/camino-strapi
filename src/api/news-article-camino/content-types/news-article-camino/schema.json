@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_article_caminos",
+  "info": {
+    "singularName": "news-article-camino",
+    "pluralName": "news-article-caminos",
+    "displayName": "newsArticleCamino",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "linkToArticle": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "articleTeaser": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
