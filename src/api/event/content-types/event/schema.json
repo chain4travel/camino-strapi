@@ -24,10 +24,6 @@
       "type": "text",
       "required": true
     },
-    "date": {
-      "type": "date",
-      "required": true
-    },
     "location": {
       "type": "string",
       "required": true
@@ -40,6 +36,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::team-member.team-member"
+    },
+    "date": {
+      "type": "string",
+      "required": true
     }
   }
 }
