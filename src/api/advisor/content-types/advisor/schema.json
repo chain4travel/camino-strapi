@@ -4,7 +4,8 @@
   "info": {
     "singularName": "advisor",
     "pluralName": "advisors",
-    "displayName": "advisor"
+    "displayName": "advisor",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,15 +21,20 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "linkedInLink": {
       "type": "string",
       "required": false
+    },
+    "role": {
+      "type": "string",
+      "required": true
     }
   }
 }

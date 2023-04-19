@@ -31,6 +31,21 @@
     "articleTeaser": {
       "type": "richtext",
       "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "mediaOutlet": {
+      "type": "string",
+      "required": true
     }
   }
 }
