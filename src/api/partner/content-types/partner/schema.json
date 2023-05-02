@@ -25,7 +25,7 @@
     "companyLogoColor": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -229,7 +229,7 @@
         "Zambia",
         "Zimbabwe"
       ],
-      "required": true,
+      "required": false,
       "default": "Germany"
     },
     "companyWebsite": {
@@ -239,26 +239,26 @@
     },
     "contactFirstname": {
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": false
     },
     "contactLastname": {
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": false
     },
     "contactPhone": {
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": false
     },
     "companyShortDescription": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "companyLongDescription": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "isConsortiumMember": {
       "type": "boolean",
@@ -275,20 +275,20 @@
       "target": "api::company-size.company-size"
     },
     "companyLogoDark": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "companyLogoLight": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
