@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "use_cases",
+  "info": {
+    "singularName": "use-case",
+    "pluralName": "use-cases",
+    "displayName": "UseCases"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageName": {
+      "type": "string"
+    },
+    "HeadlineH1": {
+      "type": "string"
+    },
+    "TextT1": {
+      "type": "text"
+    },
+    "ImageI1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "QuoteName": {
+      "type": "string"
+    },
+    "UseCaseText": {
+      "type": "text"
+    },
+    "QuoteNameTeam": {
+      "type": "string"
+    }
+  }
+}
