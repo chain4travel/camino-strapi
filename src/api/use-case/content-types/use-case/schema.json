@@ -4,7 +4,8 @@
   "info": {
     "singularName": "use-case",
     "pluralName": "use-cases",
-    "displayName": "UseCases"
+    "displayName": "UseCases",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,27 +18,28 @@
     "HeadlineH1": {
       "type": "string"
     },
-    "TextT1": {
-      "type": "text"
-    },
     "ImageI1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "QuoteName": {
       "type": "string"
     },
-    "UseCaseText": {
-      "type": "text"
-    },
     "QuoteNameTeam": {
       "type": "string"
+    },
+    "TextT1": {
+      "type": "richtext"
+    },
+    "UseCaseText": {
+      "type": "richtext"
     }
   }
 }
