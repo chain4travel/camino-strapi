@@ -39,6 +39,9 @@
     "link": {
       "type": "string",
       "required": true
+    },
+    "startdate": {
+      "type": "date"
     }
   }
 }
