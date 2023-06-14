@@ -289,6 +289,21 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "logoBox": {
+      "type": "enumeration",
+      "enum": [
+        "noLogoBox",
+        "darkBgLogoBox",
+        "brightBgLogoBox",
+        "alwaysShowLogoBox"
+      ],
+      "required": true
+    },
+    "country_flag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country-flag.country-flag"
     }
   }
 }
