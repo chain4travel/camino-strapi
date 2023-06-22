@@ -304,6 +304,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::country-flag.country-flag"
+    },
+    "companyLinkedin": {
+      "type": "string"
+    },
+    "companyTwitter": {
+      "type": "string"
     }
   }
 }
