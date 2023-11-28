@@ -310,6 +310,9 @@
     },
     "companyTwitter": {
       "type": "string"
+    },
+    "spotlightPartnerLink": {
+      "type": "string"
     }
   }
 }
