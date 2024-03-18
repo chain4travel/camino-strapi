@@ -313,6 +313,9 @@
     },
     "spotlightPartnerLink": {
       "type": "string"
+    },
+    "pChainAddress": {
+      "type": "string"
     }
   }
 }
