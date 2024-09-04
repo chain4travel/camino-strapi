@@ -317,7 +317,12 @@
       "type": "string"
     },
     "pChainAddress": {
-      "type": "string"
+      "type": "string",
+      "unique": true
+    },
+    "cChainAddress": {
+      "type": "string",
+      "unique": true
     }
   }
 }
