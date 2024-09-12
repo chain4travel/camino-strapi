@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_business_fields_c_chain_addresses",
+  "info": {
+    "displayName": "C-Chain-Address",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Network": {
+      "type": "enumeration",
+      "enum": [
+        "camino",
+        "columbus",
+        "kopernikus",
+        "local"
+      ]
+    },
+    "cAddress": {
+      "type": "string"
+    }
+  }
+}

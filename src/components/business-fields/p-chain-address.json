@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_business_fields_p_chain_addresses",
+  "info": {
+    "displayName": "P-Chain-Address"
+  },
+  "options": {},
+  "attributes": {
+    "Network": {
+      "type": "enumeration",
+      "enum": [
+        "camino",
+        "columbus",
+        "kopernikus",
+        "local"
+      ]
+    },
+    "pAddress": {
+      "type": "string"
+    }
+  }
+}

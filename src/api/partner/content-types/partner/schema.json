@@ -323,6 +323,16 @@
     "cChainAddress": {
       "type": "string",
       "unique": true
+    },
+    "cChainAddresses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "business-fields.c-chain-addresses"
+    },
+    "pChainAddresses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "business-fields.p-chain-address"
     }
   }
 }
